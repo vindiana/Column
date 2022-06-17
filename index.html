@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Column Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap" rel="stylesheet">
+  <style>
+    .main-div {
+      display: flex;
+      padding: 0%;
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      flex-direction: row;
+      width: 100%;
+    }
+
+    @media (max-width:375px) {
+      .main-div {
+        flex-direction: column;
+      }
+    }
+
+    .card1 {
+      color: antiquewhite;
+      font-size: 10px;
+      font-family: 'Lexend Deca', sans-serif;
+      margin-top: 20px;
+      padding: 2em;
+      /* padding-bottom: 100px; */
+      line-height: 20px;
+
+    }
+
+    .col2 {
+      background-color: hsl(184, 100%, 22%);
+    }
+
+    .col3 {
+      background-color: hsl(179, 100%, 13%);
+        }
+
+    .col1 {
+      background-color: hsl(31, 77%, 52%)
+    }
+
+    .rad {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    .rad3 {
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    .btn-div {
+      margin-top: 50px;
+    }
+
+    .btn-style {
+      cursor: pointer;
+       background-color: white;
+       border-radius: 20px;
+       padding: 8px 20px;
+       border:none;
+    }
+    .btn-style:hover{
+      background-color: transparent !important;
+      border-color: white;
+      border-style: solid;
+      border-width: 2px;
+      color:white;
+    }
+  </style>
+</head>
+
+<body>  
+  <div class="main-div">
+    <div class="card1 col1 rad">
+      <img src="image/image sedans.svg" alt="sedan">
+      <h1>SEDANS</h1>
+      <p>
+        Choose a sedan for its <br>
+        affordability and excellent <br>
+        fuel economy.Ideal for <br>
+        cruising in the city or on <br>
+        your next road trip
+      </p>
+      <div class="btn-div">
+        <button class="btn1 col1 btn-style">Learn More</button>
+      </div>
+    </div>
+    <div class="card1 col2">
+      <img src="image/image suv.svg" alt="" srcset="">
+      <h1>SUVS</h1>
+      <p>
+        Take an SUV for its spacious <br>
+        interior,power,and <br>
+        versatility.Perfect for your <br>
+        next family vacation and <br>
+        off-road adventures.
+      </p>
+      <div class="btn-div">
+        <button class="btn2 col2 btn-style">
+      Learn More
+      </button>
+      </div>
+    </div>
+    <div class="card1 col3  rad3">
+      <img src="image/image luxury.svg" alt="" srcset="">
+      <h1>LUXURY </h1>
+      <p>
+        Cruise in the best car brands <br>
+        without the bloated prices. <br>
+        Enjoy the enhanced comfort <br>
+        of a luxury rental and arrive <br>
+        in style.
+      </p>
+      <div class="btn-div">
+        <button class="btn3 col3 btn-style">Learn More</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
