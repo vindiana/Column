@@ -30,7 +30,7 @@ margin: 0;
 .bg-purple{
     background-color: palevioletred;
 }
-
+ 
 .cardbox{
     margin-top: 50px;
     margin-bottom: 20px;
@@ -59,12 +59,16 @@ margin: 0;
     height: 2em;
 }
 .contact-btn{
-background-color:rgb(0, 255, 188) ;
+background-color:rgb(0, 255, 180) ;
 color: white;
 padding:10px 10px;
 width: 100%;
 border-radius: 5px;
 border: none;
+cursor: pointer;
+}
+btn-style:hover{
+    background-color: transparent !important;
 }
 
 .box2{
